@@ -1,0 +1,9 @@
+# requirements generated from Pipfile
+groq
+speechrecognition
+pydub
+gtts
+elevenlabs
+requests
+python-dotenv
+gradio

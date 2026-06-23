@@ -242,8 +242,8 @@ with gr.Blocks(
 # ======================================================
 # LAUNCH
 # ======================================================
-
-iface.launch(
-    debug=True,
-    share=False
-)
+if __name__ == "__main__":
+    iface.launch(
+        debug=True,
+        share=False
+    )
